@@ -11,13 +11,16 @@
 
 The target variable in this model was the *IS_SUCCESSFUL* column. That referred to whether the money was used effectively or not. 
 
+
 2.	What variables are considered the features of the model?
 
 Almost rest of the column were the features. Those columns were: Alphabet Soup application type, affiliated sector of industry, government organization classification, use case for funding, organization type, active status, income classification, special consideration for application, and funding amount requested.
 
+
 3.	What variables were neither targets nor features?
 
 The variables of the name and identification. This columns were removed from the dataset. 
+
 
 
 •	Compiling, Training, and Evaluating the Model
@@ -27,6 +30,7 @@ The variables of the name and identification. This columns were removed from the
 There were two layers because if it only had one then the model would not be considered to be a deep learning model. There were only two layers because the data is not considered to be very complex. 
 
 In the first layer the number of neurons used was 80 and the activation function was the *ReLU* function. In the second layer the number of neurons used was 30, and the activation function remained the same. For the output layer the function used was the *sigmoid* function.
+
 
 2.	Was the target model performance achieved?
 
@@ -51,7 +55,11 @@ A fourth attempt was made with an accuracy of also 65%.
 <img width="463" alt="5" src="https://user-images.githubusercontent.com/111388644/215638732-f2377ef8-bf69-4048-abfd-54f58d8660c3.png">
 
 
+
 3.	What steps did you take to try and increase model performance?
+
+**NOTE: The *AlphabetSoupCharity_Optimization* file only includes the first attempt at optimizing the model. To make it easier the other 2 attempts were saved each on a different notebook. An extra attempt and notebook were made.**
+
 In the first attempt the number of neurons of the first hidden layer was changed from 80 to 90. 
 
 <img width="642" alt="6" src="https://user-images.githubusercontent.com/111388644/215638802-f7b55a4e-3183-4ea4-babf-9456c6345585.png">
